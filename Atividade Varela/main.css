@@ -1,0 +1,60 @@
+main {
+	padding-left: 60px;
+	padding-right: 60px;
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+}
+
+p {
+	font-size: larger;
+}
+
+main > div {
+	flex: 1;
+	min-width: 0;
+	overflow-wrap: break-word;
+}
+
+#topImages {
+	display: flex;
+    justify-content: center;
+	padding-bottom: 2vh;
+}
+
+#trianglehp {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+
+#articleTitle {
+	text-align: center;
+}
+
+#subtitle {
+	text-align: center;
+}
+
+.triangle {
+	width: 95vw;
+	height: 8vh;
+	background-color: rgb(0, 153, 0);
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.triangle2 {
+	width: 90vw;
+	height: 4vh;
+	background-color: rgb(0, 107, 0);
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+	transform: skewY(2.3deg) translateY(-2.2vh);
+	top: 10px;
+}
+
+.topImage {
+	width: 35%;
+	height: 35%;
+}
